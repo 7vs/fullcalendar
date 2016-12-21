@@ -3,14 +3,15 @@
  * implementation by tpruvot@github - 2013/2015
 ----------------------------------------------------------------------------------------------------------------------*/
 
-setDefaults({
-	yearColumns: 2,
-	fixedWeekCount: 5 // 5 rows per month minimum (else true or false)
-});
+// setDefaults({
+// 	yearColumns: 2,
+// 	fixedWeekCount: 5 // 5 rows per month minimum (else true or false)
+// });
 
 // It is a manager for DayGrid sub components, which does most of the heavy lifting.
 // It is responsible for managing width/height.
 
+// var YearView = FC.YearView = View.extend({
 fcViews.year = View.extend({
 
 	dayNumbersVisible: true, // display day numbers on each day cell?

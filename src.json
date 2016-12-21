@@ -42,6 +42,7 @@
     "agenda/config.js",
     "list/ListView.js",
     "list/config.js",
+    "year/YearView.js",
     "outro.js"
   ],
   "fullcalendar.css": [
@@ -49,7 +50,8 @@
     "main.css",
     "basic/basic.css",
     "agenda/agenda.css",
-    "list/list.css"
+    "list/list.css",
+    "year/year.css"
   ],
   "fullcalendar.print.css": [
     "common/print.css"
